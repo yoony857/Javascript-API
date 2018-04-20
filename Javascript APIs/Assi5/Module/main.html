@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="StudentModule"><h1>Take an attandance</h1>
+            <input placeholder="name" type="text">
+            <button id="addPerson">Add Student</button>
+            <h4>April 12th</h4>
+            <ul id="people">
+                <script id="people-template" type="text/template"> 
+                    {{#people}}
+                        <li>
+                            <span>{{.}}</span>
+                            <i class="del">X</i>
+                        </li>
+                    {{/people}}
+                </script>
+            </ul>
+
+        </div>
+
+      <div id = 'ajax'></div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.1.2/mustache.min.js"
+  crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+</body>
+</html>   

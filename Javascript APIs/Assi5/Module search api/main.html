@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="YoggleModule"><h1>Yoggle</h1>
+            <input placeholder="Search it" type="text">
+            <button id="addSearch">Click to search</button>
+            <ul id="something">
+                <script id="something-template" type="text/template">
+                    {{#something}}
+                        <li>
+                            <span>{{.}}</span>
+                            <i class="del">X</i>
+                        </li>
+                    {{/something}}
+                </script>
+            </ul>
+
+        </div>
+
+        <div id='ajax'></div>
+       <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.1.2/mustache.min.js"
+  crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+</body>
+</html>   
