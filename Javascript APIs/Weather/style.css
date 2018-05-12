@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #bbdad2;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #525657;
+    height: 100%;
+    background-position: center;
+}
+.weather .wrap {
+    background-color: #ffffff;
+    width: 500px;
+    padding: 30px 60px;
+    margin-top: 200px;
+    box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.38);
+    opacity: 0.9;
+}
+.weather .wrap .city-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.weather .wrap .city-name span {
+    font-size: 48px;
+}
+.weather .wrap p {
+    display: flex;
+    flex-direction: column;
+}
+.weather .wrap p span {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.weather .wrap p span:last-of-type {
+    margin-bottom: 0;
+}
+.weather .select select {
+    border: 1px solid #525657;
+    color: #525657;
+    padding: 5px 10px;
+    outline: none;
+}

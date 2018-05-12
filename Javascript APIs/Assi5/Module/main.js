@@ -74,4 +74,3 @@ var people = (function(){
 
 //people.addPerson("Young");
 //people.deletePerson(0);
-
